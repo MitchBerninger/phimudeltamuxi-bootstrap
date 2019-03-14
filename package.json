@@ -1,0 +1,11 @@
+{
+  "name": "phimudeltamuxi-bootstrap",
+  "version": "1.0.1",
+  "description": "Informational website for the Mu Xi Chapter of Phi Mu Delta Fraternity",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mitch Berninger",
+  "license": "ISC"
+}

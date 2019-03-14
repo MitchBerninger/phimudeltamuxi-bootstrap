@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+			// Live Server
+			"liveServer.settings.useWebExt": true,
+			"liveServer.settings.proxy": {
+				"enable": true,
+				"baseUri": "/",
+				"proxyUri": "http://127.0.0.1:8888/phimudeltamuxi/"
+			},
+			// Live Sass Compiler
+			"liveSassCompile.settings.formats":[
+				{
+					"format": "compressed",
+					"extensionName": ".css",
+					"savePath": "/css"
+				}
+			],
+			"liveSassCompile.settings.excludeList": [ 
+				"**/css/lightbox/**"
+			],
+			"liveSassCompile.settings.autoprefix": [
+				"> 1%",
+				"last 2 versions"
+			],
+			"liveSassCompile.settings.generateMap": false
+	}
+}

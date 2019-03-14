@@ -1,0 +1,14 @@
+# Security
+/admin/dbconnect.php
+
+# Dependecies
+/node_modules
+
+# System Files
+.DS_Store
+Thumbs.db
+*/_notes/
+/_notes
+
+# Misc
+npm-debug.log

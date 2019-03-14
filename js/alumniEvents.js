@@ -1,0 +1,92 @@
+$(document).ready(function(){
+  $('input').blur(function() {
+    var $this = $(this);
+    if ($this.val())
+      $this.addClass('used');
+    else
+      $this.removeClass('used');
+  });
+
+  $( "#alumniEventsForm" ).validate({
+    rules:{
+      'firstName':{
+        required:true
+      },
+      'lastName':{
+        required:true
+      },
+      email:{
+        required:false,
+        email:true
+      },
+      'address':{
+        required:true
+      },
+      'city':{
+        required:true
+      },
+      'state':{
+        required:true
+      },
+      'country':{
+        required:false
+      },
+      'zip':{
+        required:true
+      },
+      'guests':{
+        required:false,
+        digits:true
+      },
+      'days':{
+        required:true
+      },
+      'camp':{
+        required:true
+      },
+      'comments':{
+        required:false
+      }
+    }, //end rules
+    messages:{
+      'firstName':{
+        required:''
+      },
+      'lastName':{
+        required:''
+      },
+      email:{
+        required:'',
+        email:''
+      },
+      'address':{
+        required:''
+      },
+      'city':{
+        required:''
+      },
+      'state':{
+        required:''
+      },
+      'country':{
+        required:''
+      },
+      'zip':{
+        required:''
+      },
+      'guests':{
+        required:'',
+        digits:''
+      },
+      'days':{
+        required:''
+      },
+      'camp':{
+        required:''
+      },
+      'comments':{
+        required:''
+      }
+    }
+  });
+});
