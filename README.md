@@ -11,6 +11,6 @@ Release Process:
 ```
 git checkout master
 git pull origin master
-git merge BRANCH_NAME
+git merge develop
 git push origin master
 ```
