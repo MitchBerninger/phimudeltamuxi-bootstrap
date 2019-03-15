@@ -180,7 +180,7 @@ include('connect2.php');
                     </ul>
                 </div>
                 <div class="col-xs-4">
-                    <p>Copyright &copy; 2017</p>
+                    <p>Copyright &copy; 2015 - 2019</p>
                     <p>Phi Mu Delta Mu Xi Chapter</p>
                 </div>
             <div class="col-xs-4">
