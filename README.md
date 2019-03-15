@@ -7,3 +7,10 @@ Release Process:
 * Merge feature branches into develop when complete
 * Merge develop into master when ready to release
 * Use master branch and upload files via ftp client (need better upload process)
+
+```
+git checkout master
+git pull origin master
+git merge BRANCH_NAME
+git push origin master
+```
