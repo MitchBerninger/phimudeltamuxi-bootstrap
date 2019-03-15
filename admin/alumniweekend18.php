@@ -5,7 +5,7 @@ if($_SESSION['access'] != 'A'){
 	include('login.php');
 }
 else{
-$table = 'alumniweekend19';
+$table = 'alumniweekend18';
 
 
 //Search for matching records
