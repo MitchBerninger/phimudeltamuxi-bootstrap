@@ -182,14 +182,10 @@ span{padding-right: 10px;}
           border-bottom: 1px solid $select-border-color;
         }
 
-/* Remove focus */
-        select:focus {
-          outline: none}
-
         /* Hide label */
         .mdl-selectfield label {display: none;}
         /* Use custom arrow */
-        .mdl-selectfield select {appearance: none;}
+        // .mdl-selectfield select {appearance: none;}
         .mdl-selectfield {
           position: relative;
 
