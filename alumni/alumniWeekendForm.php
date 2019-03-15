@@ -14,7 +14,7 @@
 		$meal2 = $_POST['meal2'];		
 		$comment = $_POST['comment'];
 		$days = implode(',', $_POST['days']);
-		$tablename = 'alumniweekend18';
+		$tablename = 'alumniweekend19';
 
 			$query ="INSERT INTO $tablename (entryID,firstName,lastName,email,pledgeClass,events,guests,meal1,meal2,comment,days) VALUES ('$entryID','$firstName','$lastName','$email','$pledgeClass','$events','$guests','$meal1','$meal2','$comment','$days');";
 			//echo ($query);  //debugging technique

@@ -66,7 +66,7 @@
               <div class="textBox">
                 <div class="titleBox">
                   <h2>Welcome Mu Xi Alumni!</h2>
-                  <h3>Join your fellow Alumni and Undergraduates for the Mu Xi Chapter's 6th Annual Alumni Weekend.</h3>
+                  <h3>Join your fellow Alumni and Undergraduates for the Mu Xi Chapter's 7th Annual Alumni Weekend.</h3>
                 </div>
                 <div class="alertBox altBox">
                   <div class="row">
@@ -74,7 +74,7 @@
                       <h4><b>Date</b></h4>
                     </div>
                     <div class="col-md-9">
-                      <h4>April 13-15, 2018</h4>
+                      <h4>April 12-14, 2019</h4>
                     </div>
                     <!-- <div class="col-md-3">
                       <h4><b>Time</b></h4>
@@ -91,14 +91,15 @@
                   </div>
                 </div>
                 <span class="eventContent">
-                <p>On April 25, 2018 our chapter will celebrate 15 years on the Penn College Campus. Come Celebrate at the 2018 Alumni Weekend Friday, April 13 - Sunday April 15. This weekend will kick off Saturday morning with a service event helping the local community, Followed by a Chapter-Alumni social. After the Chapter-Alumni Social the Alumni Association will host their Annual Meeting to discuss its business. For any questions, please email Steve Kanaley at <a href="mailto:kanaley.steven@gmail.com">kanaley.steven@gmail.com</a></p>
+                <p>On April 25, 2019 our chapter will celebrate 16 years on the Penn College Campus. Come Celebrate at the 2019 Alumni Weekend Friday, April 12 - Sunday April 14. This weekend will kick off Saturday morning with a service event helping the local community, Followed by a Chapter-Alumni social. After the Chapter-Alumni Social the Alumni Association will host their Annual Meeting to discuss its business. For any questions, please email Steve Kanaley at <a href="mailto:kanaley.steven@gmail.com">kanaley.steven@gmail.com</a></p>
                 <br>
                 <h4>Alumni Weekend Formal Dinner</h4>
-                <p>The Alumni Weekend Formal Dinner will be held on Saturday, April 14 from 6 - 10PM. The event will be located at the Genetti Hotel's Ballroom in downtown Williamsport. Beginning the night, we will be having a social hour with hor d'oeuvres and music. For dinner, you will have your meal option that you chose on your RSVP. The meal options for the night are:</p>
+                <p>The Alumni Weekend Formal Dinner will be held on Saturday, April 13 from 6 - 10PM. The event will be located at the Genetti Hotel in downtown Williamsport. Beginning the night, we will be having a social hour with hor d'oeuvres and music. For dinner, you will have your meal option that you chose on your RSVP. The meal options for the night are:</p>
                 <ul>
-                <li><b>San Diego Chicken</b> Stuffed chicken brest with sun-dried tomatoes, spinach, ham, &amp; Smoked Gouda cheese, topped with sun-dried tomato cream sauce</li>
-                <li><b>10oz Prime Rib</b> cooked to perfection</li>
-                <li><b>Vegetarian</b> Cheese Tortellini Tossed in a Pesto Cream Sauce with fresh spinach</li>
+                <li><b>Filet Mignon</b> 6oz with port peppercorn demi-glace</li>
+                <li><b>Grilled Garlic Sesame Salmon</b> cooked to perfection</li>
+                <li><b>Cheese Ravioli Ratatouille</b> delicious pasta dish</li>
+                <li><b>Lobster &amp; Crab Stuffed Chicken</b> with a sun-dried tomato lemon cream sauce</li>
                 </ul>
                   <br>
                 <p>The price per ticket is $50.  Check back for more information.</p>
@@ -180,10 +181,10 @@
                             <h4 class="selectTitle">Your Meal Options</h4>
                             <select name="meal1">
                                 <option value="" disabled selected>Select your option</option>
-                                <option value="CK">San Diego Chicken</option>
-                                <option value="RIB">10oz Prime Rib</option>
-                                <option value="VEG">Vegetarian</option>
-
+                                <option value="FM">Filet Mignon</option>
+                                <option value="GGS">Grilled Garlic Seasme Salmon</option>
+                                <option value="CRR">Cheese Ravioli Ratatouille</option>
+                                <option value="LCC">Lobster &amp; Crab Stuffed Chicken</option>
                             </select>
                             <label>Your Meal Options</label>
                           </div>
@@ -191,10 +192,10 @@
                             <h4 class="selectTitle">Guest's Meal Options</h4>
                             <select name="meal2">
                                 <option value="" disabled selected>Select your option</option>
-                                <option value="CK">San Diego Chicken</option>
-                                <option value="RIB">10oz Prime Rib</option>
-                                <option value="VEG">Vegetarian</option>
-
+                                <option value="FM">Filet Mignon</option>
+                                <option value="GGS">Grilled Garlic Seasme Salmon</option>
+                                <option value="CRR">Cheese Ravioli Ratatouille</option>
+                                <option value="LCC">Lobster &amp; Crab Stuffed Chicken</option>
                             </select>
                             <label>Guest's Meal Options</label>
                           </div>
@@ -208,8 +209,8 @@
                               <input type="checkbox" name="days[]" value="2" /> Saturday<br />
                               <input type="checkbox" name="days[]" value="3" /> Sunday<br />
                           </div>
-                          <!-- <input type="submit" name='submit' class="button buttonBlue submit" /> -->
-                          <button type='button' class="btn button buttonBlue disabled">CLOSED</button>
+                          <input type="submit" name='submit' class="button buttonBlue submit" />
+                          <!-- <button type='button' class="btn button buttonBlue disabled">CLOSED</button> -->
 
 
                         </form>
