@@ -164,6 +164,11 @@
                                 <option value="Alpha Epsilon">Alpha Epsilon</option>
                                 <option value="Alpha Zeta">Alpha Zeta</option>
                                 <option value="Alpha Eta">Alpha Eta</option>
+                                <option value="Alpha Theta">Alpha Theta</option>
+                                <option value="Alpha Iota">Alpha Iota</option>
+                                <option value="Alpha Kappa">Alpha Kappa</option>
+                                <option value="Alpha Lambda">Alpha Lambda</option>
+                                <option value="Alpha Mu">Alpha Mu</option>
 
                             </select>
                             <label>Pledge Class</label>
