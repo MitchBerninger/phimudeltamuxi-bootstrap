@@ -15,3 +15,10 @@ git pull origin master
 git merge develop
 git push origin master
 ```
+
+Recommended VS Code Plugins:
+* Live Server (and the chrome extension)
+* Live Sass Compiler
+
+Workspace:
+* The provided workspace file is setup to listen for files at that are served thorugh MAMP and are located at `<MAMP APPLICATION>/htdocs/phimudeltamuxi/<PROJECT FILES>`
